@@ -7,4 +7,7 @@ module com.example.td1 {
 
     opens com.example.td1 to javafx.fxml;
     exports com.example.td1;
+
+    exports com.example.partie1;
 }
+
