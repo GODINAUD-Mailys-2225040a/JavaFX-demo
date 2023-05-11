@@ -75,15 +75,15 @@ public class exo4 extends Application {
         if (choix == "vert"){
             ++compteurvert;
             titre.setText("Vert choisi " + compteurvert + " fois");
-            centre.setStyle("-fx-background-color: green;");
+            centre.setStyle("-fx-background-color: #117e47;");
         } else if (choix == "rouge") {
             ++compteurrouge;
             titre.setText("Rouge choisi " + compteurrouge + " fois");
-            centre.setStyle("-fx-background-color: red;");
+            centre.setStyle("-fx-background-color: #930303;");
         } else if (choix == "bleu") {
             ++compteurbleu;
             titre.setText("Bleu choisi " + compteurbleu + " fois");
-            centre.setStyle("-fx-background-color: blue;");
+            centre.setStyle("-fx-background-color: #0ec4c4;");
         }
 
     }
