@@ -9,5 +9,6 @@ module com.example.td1 {
     exports com.example.td1;
 
     exports com.example.partie1;
+    exports com.example.partie2;
 }
 
