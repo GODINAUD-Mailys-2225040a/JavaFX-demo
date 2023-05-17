@@ -24,6 +24,7 @@ public class exo6 extends Application {
     private String reponse;
 
 
+
     @Override
     public void start(Stage primaryStage) throws Exception {
 
@@ -89,6 +90,8 @@ public class exo6 extends Application {
         primaryStage.show();
     }
     private void entree(Image image, String mot, String reponse, int vies, TextField proposition){
+        Dico dico = new Dico();
+        ArrayList dico.getPositions(proposition.getCharacters().charAt(0), mot);
 
     }
 }
